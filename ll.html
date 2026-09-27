@@ -1,143 +1,646 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-    <title>FitZone Gym</title>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>FitZone — Build Your Best Self</title>
+
     <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
 </head>
+
 
 <body>
 
-    <header>
-        <div class="logo">FIT<span>ZONE</span></div>
 
-        <nav>
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#workouts">Workouts</a>
-            <a href="#plans">Plans</a>
-            <a href="#contact">Contact</a>
-        </nav>
-    </header>
+<!-- =====================================================
+     NAVBAR
+===================================================== -->
 
-    <section id="home" class="hero">
-        <div class="hero-text">
-            <h1>BUILD YOUR<br><span>BEST SELF.</span></h1>
-            <p>Train hard. Stay healthy. Become stronger.</p>
-            <a href="#plans" class="button">JOIN NOW</a>
+<header>
+
+    <div class="logo">
+        FIT<span>ZONE</span>
+    </div>
+
+    <nav>
+
+        <a href="#home">HOME</a>
+        <a href="#about">ABOUT</a>
+        <a href="#workouts">WORKOUTS</a>
+        <a href="#plans">PLANS</a>
+        <a href="#contact">CONTACT</a>
+
+    </nav>
+
+    <a href="#plans" class="nav-join">
+        JOIN →
+    </a>
+
+</header>
+
+
+
+<!-- =====================================================
+     HERO
+===================================================== -->
+
+<section id="home" class="hero">
+
+    <div class="hero-image"></div>
+
+    <div class="hero-content">
+
+        <div class="hero-label">
+            EST. 2026 / FITNESS CLUB
         </div>
-    </section>
 
-    <section id="about" class="about">
-        <h2>ABOUT FITZONE</h2>
+        <h1>
+            BUILD
+            <br>
+            YOUR
+            <span>BEST SELF.</span>
+        </h1>
+
         <p>
-            FitZone is a modern fitness club designed for people who want
-            to stay healthy, active and strong. We provide quality equipment,
-            friendly trainers and a positive environment for everyone.
+            Train hard. Stay disciplined.
+            Become stronger every single day.
         </p>
 
-        <div class="numbers">
-            <div>
-                <h3>500+</h3>
-                <p>Members</p>
-            </div>
+        <div class="hero-buttons">
 
-            <div>
-                <h3>10+</h3>
-                <p>Trainers</p>
-            </div>
+            <a href="#plans" class="brutal-button orange">
+                JOIN NOW →
+            </a>
 
-            <div>
-                <h3>20+</h3>
-                <p>Equipment</p>
-            </div>
-        </div>
-    </section>
-
-    <section id="workouts" class="workouts">
-        <h2>OUR WORKOUTS</h2>
-        <p class="subtitle">Choose a workout and start your journey.</p>
-
-        <div class="cards">
-
-            <div class="card">
-                <div class="icon">🏃</div>
-                <h3>Cardio</h3>
-                <p>
-                    Improve your stamina, burn calories and keep your
-                    heart healthy.
-                </p>
-                <a href="#">Learn More</a>
-            </div>
-
-            <div class="card">
-                <div class="icon">🏋️</div>
-                <h3>Strength</h3>
-                <p>
-                    Build muscle, increase strength and become
-                    more powerful.
-                </p>
-                <a href="#">Learn More</a>
-            </div>
-
-            <div class="card">
-                <div class="icon">🧘</div>
-                <h3>Yoga</h3>
-                <p>
-                    Improve flexibility, reduce stress and keep
-                    your mind relaxed.
-                </p>
-                <a href="#">Learn More</a>
-            </div>
+            <a href="#workouts" class="brutal-button white">
+                EXPLORE
+            </a>
 
         </div>
-    </section>
 
-    <section id="plans" class="plans">
-        <h2>MEMBERSHIP PLANS</h2>
+    </div>
 
-        <div class="plan-container">
 
-            <div class="plan">
-                <h3>Basic</h3>
-                <h4>₹999 <span>/ month</span></h4>
-                <p>Gym Access</p>
-                <p>Basic Equipment</p>
-                <p>Locker Facility</p>
-                <button>JOIN NOW</button>
-            </div>
+    <div class="hero-sticker">
 
-            <div class="plan popular">
-                <h3>Standard</h3>
-                <h4>₹1499 <span>/ month</span></h4>
-                <p>Gym Access</p>
-                <p>Personal Trainer</p>
-                <p>Diet Guidance</p>
-                <button>JOIN NOW</button>
-            </div>
+        <span>NO</span>
+        <strong>EXCUSES</strong>
 
-            <div class="plan">
-                <h3>Premium</h3>
-                <h4>₹1999 <span>/ month</span></h4>
-                <p>All Gym Facilities</p>
-                <p>Personal Trainer</p>
-                <p>Full Diet Plan</p>
-                <button>JOIN NOW</button>
-            </div>
+    </div>
+
+
+    <div class="hero-bottom">
+
+        <span>SCROLL DOWN</span>
+
+        <div class="scroll-line"></div>
+
+        <span>01</span>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     MARQUEE
+===================================================== -->
+
+<div class="marquee">
+
+    <div class="marquee-track">
+
+        <span>TRAIN HARD</span>
+        <b>✦</b>
+
+        <span>STAY STRONG</span>
+        <b>✦</b>
+
+        <span>NO EXCUSES</span>
+        <b>✦</b>
+
+        <span>GET RESULTS</span>
+        <b>✦</b>
+
+        <span>TRAIN HARD</span>
+        <b>✦</b>
+
+        <span>STAY STRONG</span>
+        <b>✦</b>
+
+        <span>NO EXCUSES</span>
+        <b>✦</b>
+
+    </div>
+
+</div>
+
+
+
+<!-- =====================================================
+     ABOUT
+===================================================== -->
+
+<section id="about" class="about">
+
+    <div class="section-number">
+        01
+    </div>
+
+    <div class="section-heading">
+
+        <p class="mini-title">
+            WHO WE ARE
+        </p>
+
+        <h2>
+            MORE THAN
+            <span>A GYM.</span>
+        </h2>
+
+    </div>
+
+
+    <div class="about-layout">
+
+        <div class="about-text">
+
+            <p>
+                FitZone is a modern fitness club for people
+                who are serious about becoming stronger,
+                healthier and more confident.
+            </p>
+
+            <p>
+                No complicated promises. No shortcuts.
+                Just quality equipment, expert trainers
+                and an environment that pushes you forward.
+            </p>
+
+            <a href="#workouts" class="text-link">
+                DISCOVER FITZONE →
+            </a>
 
         </div>
-    </section>
 
-    <section id="contact" class="contact">
-        <h2>START YOUR FITNESS JOURNEY</h2>
-        <p>Visit us today and take the first step towards a healthier you.</p>
-        <a href="mailto:fitzone@gmail.com" class="button">CONTACT US</a>
-    </section>
 
-    <footer>
-        <div class="logo">FIT<span>ZONE</span></div>
-        <p>© 2026 FitZone Gym. All Rights Reserved.</p>
-    </footer>
+        <div class="about-box">
+
+            <div class="box-top">
+                <span>FITZONE</span>
+                <span>2026</span>
+            </div>
+
+            <div class="big-x">
+                X
+            </div>
+
+            <p>
+                TRAINING<br>
+                DISCIPLINE<br>
+                RESULTS
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <!-- STATS -->
+
+    <div class="stats">
+
+        <div class="stat">
+
+            <strong>
+                500<span>+</span>
+            </strong>
+
+            <p>
+                ACTIVE MEMBERS
+            </p>
+
+        </div>
+
+
+        <div class="stat">
+
+            <strong>
+                10<span>+</span>
+            </strong>
+
+            <p>
+                EXPERT TRAINERS
+            </p>
+
+        </div>
+
+
+        <div class="stat">
+
+            <strong>
+                20<span>+</span>
+            </strong>
+
+            <p>
+                EQUIPMENT
+            </p>
+
+        </div>
+
+
+        <div class="stat">
+
+            <strong>
+                24/7
+            </strong>
+
+            <p>
+                FITNESS MINDSET
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     WORKOUTS
+===================================================== -->
+
+<section id="workouts" class="workouts">
+
+    <div class="section-number">
+        02
+    </div>
+
+    <div class="section-heading">
+
+        <p class="mini-title">
+            TRAIN YOUR WAY
+        </p>
+
+        <h2>
+            CHOOSE YOUR
+            <span>WEAPON.</span>
+        </h2>
+
+    </div>
+
+
+    <div class="workout-grid">
+
+
+        <!-- CARDIO -->
+
+        <article class="workout-card cardio">
+
+            <div class="card-number">
+                01
+            </div>
+
+            <div class="workout-icon">
+                🏃
+            </div>
+
+            <h3>
+                CARDIO
+            </h3>
+
+            <p>
+                Improve stamina, burn calories
+                and build cardiovascular strength.
+            </p>
+
+            <a href="#">
+                LEARN MORE ↗
+            </a>
+
+        </article>
+
+
+
+        <!-- STRENGTH -->
+
+        <article class="workout-card strength">
+
+            <div class="card-number">
+                02
+            </div>
+
+            <div class="workout-icon">
+                🏋️
+            </div>
+
+            <h3>
+                STRENGTH
+            </h3>
+
+            <p>
+                Build muscle, increase strength
+                and become more powerful.
+            </p>
+
+            <a href="#">
+                LEARN MORE ↗
+            </a>
+
+        </article>
+
+
+
+        <!-- YOGA -->
+
+        <article class="workout-card yoga">
+
+            <div class="card-number">
+                03
+            </div>
+
+            <div class="workout-icon">
+                🧘
+            </div>
+
+            <h3>
+                YOGA
+            </h3>
+
+            <p>
+                Improve flexibility, reduce stress
+                and find your balance.
+            </p>
+
+            <a href="#">
+                LEARN MORE ↗
+            </a>
+
+        </article>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     BIG STATEMENT
+===================================================== -->
+
+<section class="statement">
+
+    <div class="statement-small">
+        THE ONLY BAD WORKOUT
+    </div>
+
+    <h2>
+        IS THE
+        <span>ONE</span>
+        YOU
+        <span>SKIPPED.</span>
+    </h2>
+
+    <div class="statement-arrow">
+        ↓
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     PLANS
+===================================================== -->
+
+<section id="plans" class="plans">
+
+    <div class="section-number">
+        03
+    </div>
+
+    <div class="section-heading">
+
+        <p class="mini-title">
+            MEMBERSHIP
+        </p>
+
+        <h2>
+            PICK YOUR
+            <span>PLAN.</span>
+        </h2>
+
+    </div>
+
+
+    <div class="plans-grid">
+
+
+        <!-- BASIC -->
+
+        <article class="plan">
+
+            <div class="plan-number">
+                01
+            </div>
+
+            <h3>
+                BASIC
+            </h3>
+
+            <div class="price">
+                ₹999
+                <small>/ MONTH</small>
+            </div>
+
+            <div class="plan-line"></div>
+
+            <ul>
+
+                <li>✓ Gym Access</li>
+                <li>✓ Basic Equipment</li>
+                <li>✓ Locker Facility</li>
+                <li class="disabled">× Personal Trainer</li>
+
+            </ul>
+
+            <button>
+                CHOOSE PLAN →
+            </button>
+
+        </article>
+
+
+
+        <!-- STANDARD -->
+
+        <article class="plan featured">
+
+            <div class="popular">
+                MOST POPULAR
+            </div>
+
+            <div class="plan-number">
+                02
+            </div>
+
+            <h3>
+                STANDARD
+            </h3>
+
+            <div class="price">
+                ₹1499
+                <small>/ MONTH</small>
+            </div>
+
+            <div class="plan-line"></div>
+
+            <ul>
+
+                <li>✓ Gym Access</li>
+                <li>✓ Personal Trainer</li>
+                <li>✓ Diet Guidance</li>
+                <li>✓ Locker Facility</li>
+
+            </ul>
+
+            <button>
+                CHOOSE PLAN →
+            </button>
+
+        </article>
+
+
+
+        <!-- PREMIUM -->
+
+        <article class="plan">
+
+            <div class="plan-number">
+                03
+            </div>
+
+            <h3>
+                PREMIUM
+            </h3>
+
+            <div class="price">
+                ₹1999
+                <small>/ MONTH</small>
+            </div>
+
+            <div class="plan-line"></div>
+
+            <ul>
+
+                <li>✓ All Gym Facilities</li>
+                <li>✓ Personal Trainer</li>
+                <li>✓ Full Diet Plan</li>
+                <li>✓ Priority Support</li>
+
+            </ul>
+
+            <button>
+                CHOOSE PLAN →
+            </button>
+
+        </article>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     CONTACT
+===================================================== -->
+
+<section id="contact" class="contact">
+
+    <div class="contact-left">
+
+        <p class="mini-title">
+            04 — GET STARTED
+        </p>
+
+        <h2>
+            READY TO
+            <span>GET STRONGER?</span>
+        </h2>
+
+    </div>
+
+
+    <div class="contact-right">
+
+        <p>
+            Stop waiting for the perfect time.
+            Start building the strongest version of yourself today.
+        </p>
+
+        <a
+            href="mailto:fitzone@gmail.com"
+            class="contact-button"
+        >
+            CONTACT US →
+        </a>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     FOOTER
+===================================================== -->
+
+<footer>
+
+    <div class="footer-main">
+
+        <div class="footer-logo">
+            FIT<span>ZONE</span>
+        </div>
+
+        <p>
+            TRAIN HARD. LIVE STRONG.
+        </p>
+
+    </div>
+
+
+    <div class="footer-bottom">
+
+        <p>
+            © 2026 FitZone Gym.
+            All Rights Reserved.
+        </p>
+
+        <div>
+
+            <a href="#">Instagram</a>
+            <a href="#">Facebook</a>
+            <a href="#">LinkedIn</a>
+
+        </div>
+
+    </div>
+
+</footer>
+
 
 </body>
 </html>
-```
