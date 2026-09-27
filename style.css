@@ -1,0 +1,275 @@
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #222;
+}
+
+header {
+    background-color: #111;
+    color: white;
+    padding: 20px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.logo {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.logo span {
+    color: #ff7a00;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 25px;
+    font-size: 15px;
+}
+
+nav a:hover {
+    color: #ff7a00;
+}
+
+.hero {
+    min-height: 600px;
+    background: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)),
+    url("https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=1600&q=80");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 80px 10%;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 65px;
+    margin: 0 0 15px;
+}
+
+.hero h1 span {
+    color: #ff7a00;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 35px;
+}
+
+.button {
+    display: inline-block;
+    background-color: #ff7a00;
+    color: white;
+    text-decoration: none;
+    padding: 14px 28px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #e56c00;
+}
+
+section {
+    padding: 80px 10%;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.about {
+    background-color: white;
+}
+
+.about > p {
+    max-width: 750px;
+    margin: auto;
+    line-height: 1.7;
+    color: #555;
+}
+
+.numbers {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 45px;
+}
+
+.numbers h3 {
+    font-size: 35px;
+    color: #ff7a00;
+    margin: 0;
+}
+
+.numbers p {
+    margin-top: 8px;
+}
+
+.workouts {
+    background-color: #f5f5f5;
+}
+
+.subtitle {
+    color: #666;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 40px;
+}
+
+.card {
+    background-color: white;
+    width: 300px;
+    padding: 35px 25px;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px #ddd;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.icon {
+    font-size: 45px;
+}
+
+.card h3 {
+    font-size: 23px;
+    color: #ff7a00;
+}
+
+.card p {
+    color: #666;
+    line-height: 1.6;
+}
+
+.card a {
+    color: #ff7a00;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.plans {
+    background-color: #111;
+    color: white;
+}
+
+.plan-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 40px;
+}
+
+.plan {
+    background-color: white;
+    color: #222;
+    width: 280px;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.plan h3 {
+    font-size: 24px;
+}
+
+.plan h4 {
+    font-size: 30px;
+    color: #ff7a00;
+}
+
+.plan h4 span {
+    font-size: 14px;
+    color: #777;
+}
+
+.plan p {
+    color: #555;
+}
+
+.plan button {
+    background-color: #ff7a00;
+    border: none;
+    color: white;
+    padding: 12px 25px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.popular {
+    border: 3px solid #ff7a00;
+    transform: scale(1.05);
+}
+
+.contact {
+    background-color: #ff7a00;
+    color: white;
+}
+
+.contact h2 {
+    margin-top: 0;
+}
+
+.contact .button {
+    background-color: #111;
+}
+
+footer {
+    background-color: #111;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+footer p {
+    color: #aaa;
+}
+
+@media (max-width: 800px) {
+    header {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    nav a {
+        margin: 8px;
+    }
+
+    .hero h1 {
+        font-size: 45px;
+    }
+
+    .cards,
+    .plan-container,
+    .numbers {
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+    }
+
+    .popular {
+        transform: none;
+    }
+}
